@@ -25,7 +25,6 @@ public class MainActivity extends Activity {
     private Students s;
     private int firstId = 0;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -150,7 +149,6 @@ public class MainActivity extends Activity {
     }
 
     /*
-
     private void doNoteDataStuff() {
         dbHelper = OpenHelperManager.getHelper(this, DatabaseHelper.class);
 
